@@ -16,19 +16,19 @@
     <h2>Введите параметры питания</h2>
     <form action="">
       <label for=""> <span>Норма белка в день</span>
-        <input class="input-style" type="number" id="proteins"
+        <input required class="input-style" type="number" id="proteins"
           placeholder="Белки (г)" />
       </label>
       <label for=""> <span>Норма жиров в день</span>
-        <input class="input-style" type="number" id="fats"
+        <input required class="input-style" type="number" id="fats"
           placeholder="Жиры (г)" />
       </label>
       <label for=""><span>Норма углеводов в день</span>
-        <input class="input-style" type="number" id="carbs"
+        <input required class="input-style" type="number" id="carbs"
           placeholder="Углеводы (г)" />
       </label>
       <button class="button-style" type="button"
-        onclick="generateNutritionPlan()">Сгенерировать план</button>
+        onclick="generateNutritionPlan()" disabled>Сгенерировать план</button>
     </form>
     <div id="nutrition-plan"></div>
   </div>

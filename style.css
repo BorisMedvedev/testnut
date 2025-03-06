@@ -103,10 +103,12 @@ table.show {
 
 th,
 td {
-  border: 1px solid #000;
+  border: 2px solid #4CAF50;
   padding: 2px;
   text-align: left;
   font-size: 12px;
+  font-family: "JetBrains Mono", monospace;
+
 }
 
 th {
@@ -121,4 +123,9 @@ th {
 .note {
   margin-top: 20px;
   font-size: 14px;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
 }

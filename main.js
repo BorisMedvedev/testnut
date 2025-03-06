@@ -1,4 +1,32 @@
-// Использование
+// Находим все input-элементы на странице
+const inputs = document.querySelectorAll('input');
+const button = document.querySelector('.button-style'); // Находим кнопку
+
+// Функция для проверки, все ли input-элементы заполнены
+function checkInputs() {
+  let allFilled = true;
+  inputs.forEach((input) => {
+    if (input.value.trim() === '') {
+      allFilled = false;
+    }
+  });
+
+  // Если все input-элементы заполнены, убираем атрибут disabled у кнопки
+  if (allFilled) {
+    button.removeAttribute('disabled');
+  } else {
+    button.setAttribute('disabled', 'disabled');
+  }
+}
+
+// Добавляем обработчик события input для каждого input-элемента
+inputs.forEach((input) => {
+  input.addEventListener('input', checkInputs);
+});
+
+// Вызываем функцию при загрузке страницы, чтобы проверить состояние input-элементов
+checkInputs();
+
 function generateNutritionPlan() {
   document.getElementById('nutrition-plan').innerHTML = `
  
