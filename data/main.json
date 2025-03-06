@@ -1,0 +1,184 @@
+{
+  "protein_sources": [
+    {
+      "id": 1,
+      "name": "Курица",
+      "type": "белок",
+      "calories": 120,
+      "protein": 25,
+      "fat": 3,
+      "carbs": 0,
+      "category": ["белок", "основное"]
+    },
+    {
+      "id": 2,
+      "name": "Говядина постная",
+      "type": "белок",
+      "calories": 150,
+      "protein": 26,
+      "fat": 5,
+      "carbs": 0,
+      "category": ["белок", "основное"]
+    },
+    {
+      "id": 3,
+      "name": "Лосось",
+      "type": "белок",
+      "calories": 200,
+      "protein": 22,
+      "fat": 13,
+      "carbs": 0,
+      "category": ["белок", "жирные кислоты"]
+    },
+    {
+      "id": 4,
+      "name": "Тунец",
+      "type": "белок",
+      "calories": 130,
+      "protein": 26,
+      "fat": 2,
+      "carbs": 0,
+      "category": ["белок", "диетическое"]
+    },
+    {
+      "id": 5,
+      "name": "Яйца",
+      "type": "белок",
+      "calories": 70,
+      "protein": 6,
+      "fat": 5,
+      "carbs": 1,
+      "category": ["белок", "завтрак"]
+    }
+  ],
+  "carbohydrate_sources": [
+    {
+      "id": 101,
+      "name": "Гречка",
+      "type": "углеводы",
+      "calories": 110,
+      "protein": 4,
+      "fat": 2,
+      "carbs": 20,
+      "category": ["углеводы", "крупы"]
+    },
+    {
+      "id": 102,
+      "name": "Киноа",
+      "type": "углеводы",
+      "calories": 120,
+      "protein": 4.4,
+      "fat": 1.9,
+      "carbs": 21.3,
+      "category": ["углеводы", "крупы"]
+    },
+    {
+      "id": 103,
+      "name": "Овсянка",
+      "type": "углеводы",
+      "calories": 100,
+      "protein": 3,
+      "fat": 2,
+      "carbs": 15,
+      "category": ["углеводы", "крупы"]
+    },
+    {
+      "id": 104,
+      "name": "Батат",
+      "type": "углеводы",
+      "calories": 86,
+      "protein": 1.6,
+      "fat": 0.1,
+      "carbs": 20,
+      "category": ["углеводы", "овощи"]
+    }
+  ],
+  "vegetables": [
+    {
+      "id": 201,
+      "name": "Брокколи",
+      "type": "овощи",
+      "calories": 35,
+      "protein": 2.8,
+      "fat": 0.4,
+      "carbs": 7,
+      "category": ["овощи", "зеленые"]
+    },
+    {
+      "id": 202,
+      "name": "Шпинат",
+      "type": "овощи",
+      "calories": 23,
+      "protein": 2.9,
+      "fat": 0.4,
+      "carbs": 3.6,
+      "category": ["овощи", "зеленые"]
+    },
+    {
+      "id": 203,
+      "name": "Огурцы",
+      "type": "овощи",
+      "calories": 15,
+      "protein": 0.7,
+      "fat": 0.2,
+      "carbs": 3.6,
+      "category": ["овощи", "салат"]
+    }
+  ],
+  "fruits": [
+    {
+      "id": 301,
+      "name": "Яблоко",
+      "type": "фрукты",
+      "calories": 52,
+      "protein": 0.3,
+      "fat": 0.2,
+      "carbs": 14,
+      "category": ["фрукты", "сладкое"]
+    },
+    {
+      "id": 302,
+      "name": "Банан",
+      "type": "фрукты",
+      "calories": 89,
+      "protein": 1.1,
+      "fat": 0.3,
+      "carbs": 23,
+      "category": ["фрукты", "энергия"]
+    }
+  ],
+  "nuts_and_seeds": [
+    {
+      "id": 401,
+      "name": "Миндаль",
+      "type": "орехи",
+      "calories": 576,
+      "protein": 21.2,
+      "fat": 49.9,
+      "carbs": 21.7,
+      "category": ["орехи", "жиры"]
+    },
+    {
+      "id": 402,
+      "name": "Семена чиа",
+      "type": "семена",
+      "calories": 486,
+      "protein": 16.5,
+      "fat": 30.7,
+      "carbs": 42.1,
+      "category": ["семена", "омега"]
+    }
+  ],
+  "dairy_and_alternatives": [
+    {
+      "id": 501,
+      "name": "Греческий йогурт",
+      "type": "молочные",
+      "calories": 59,
+      "protein": 10,
+      "fat": 0.4,
+      "carbs": 3.6,
+      "category": ["молочные", "белок"]
+    }
+  ]
+}

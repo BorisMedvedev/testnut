@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Персонализированное питание</title>
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <h2>Введите параметры питания</h2>
+    <form action="">
+      <label for=""> <span>Норма белка в день</span>
+        <input class="input-style" type="number" id="proteins"
+          placeholder="Белки (г)" />
+      </label>
+      <label for=""> <span>Норма жиров в день</span>
+        <input class="input-style" type="number" id="fats"
+          placeholder="Жиры (г)" />
+      </label>
+      <label for=""><span>Норма углеводов в день</span>
+        <input class="input-style" type="number" id="carbs"
+          placeholder="Углеводы (г)" />
+      </label>
+      <button class="button-style" type="button"
+        onclick="generateNutritionPlan()">Сгенерировать план</button>
+    </form>
+    <div id="nutrition-plan"></div>
+  </div>
+  <button id="savePdf" style="display: none">Сохранить в PDF</button>
+
+  <script src="./main.js" defer></script>
+</body>
+
+</html>
