@@ -19,8 +19,8 @@ h2 {
 }
 
 .container {
-  padding: 50px;
-  max-width: 1560px;
+  padding: 20px;
+  max-width: 1600px;
   width: 100%;
   margin: 0 auto;
 }
@@ -93,6 +93,12 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: 30px auto;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+table.show {
+  opacity: 1;
 }
 
 th,
