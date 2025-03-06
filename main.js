@@ -1,8 +1,7 @@
 // Находим все input-элементы на странице
 const inputs = document.querySelectorAll('input');
-const button = document.querySelector('.button-style'); // Находим кнопку
+const button = document.querySelector('.button-style');
 
-// Функция для проверки, все ли input-элементы заполнены
 function checkInputs() {
   let allFilled = true;
   inputs.forEach((input) => {
@@ -11,7 +10,6 @@ function checkInputs() {
     }
   });
 
-  // Если все input-элементы заполнены, убираем атрибут disabled у кнопки
   if (allFilled) {
     button.removeAttribute('disabled');
   } else {
@@ -19,12 +17,10 @@ function checkInputs() {
   }
 }
 
-// Добавляем обработчик события input для каждого input-элемента
 inputs.forEach((input) => {
   input.addEventListener('input', checkInputs);
 });
 
-// Вызываем функцию при загрузке страницы, чтобы проверить состояние input-элементов
 checkInputs();
 
 function generateNutritionPlan() {
