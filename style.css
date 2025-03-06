@@ -5,8 +5,17 @@
   padding: 0;
 }
 
+
+body {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
 h2 {
   margin-bottom: 50px;
+  font-size: 32px;
 }
 
 .container {
@@ -42,7 +51,7 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
-  margin-top: 21px;
+  margin-top: 28px;
 }
 
 .button-style:hover {
